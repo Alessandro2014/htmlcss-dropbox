@@ -132,9 +132,6 @@ nav li {
 
 /* dropbox invoice */
 
-.section_1 {
-    margin: 0 auto;
-}
 
 .col_invoice_bottom {
     padding: 10px 30px;
@@ -157,7 +154,7 @@ nav li {
     padding-top: 7px;
 }
 
-.section_1 h2 {
+.marg_top {
     margin: 80px 0 40px 0;
 }
     
@@ -212,6 +209,10 @@ nav li {
     color: rgb(0,97,255);
 }
 
+/* /dropbox invoice */
+
+/* contatta ufficio */
+
 .btt_test_free {
     color: white;
     background-color: rgb(0,97,255);
@@ -223,6 +224,7 @@ nav li {
 .enterprise_contact {
     width: 100%;
     border: 1px solid grey;
+    margin: 30px 0 100px 0;
 }
 
 .col_enterprise_bottom {
@@ -236,3 +238,52 @@ nav li {
     top: 30px;
     right: 30px;
 }
+
+/* /contatta ufficio */
+
+/* sezione partner */
+
+.section_partner {
+    margin: 100px 0;
+}
+
+.section_partner img {
+    width: 50%;
+}
+
+.partner_text {
+    width: 50%;
+    padding: 50px;
+}
+
+.btt_partner {
+    border: 1px solid black;
+    padding: 7px 15px;
+}
+/* /sezione partner */
+
+/* sezione operazioni */
+
+.col_operations > div {
+    width: calc(100% / 3);
+    height: 600px;
+    padding: 20px;
+}
+
+.col_operations img {
+    width: 100%;
+}
+
+#text_underline {
+    text-decoration: underline;
+}
+
+/* /sezione operazioni */
+
+/* sezione utilizzatori */
+
+.text_team > a {
+    color: rgb(0,97,255);
+}
+
+/* /sezione utilizzatori */
