@@ -86,7 +86,7 @@ section .col hr {
     position: absolute;
 }
 
-nav li {
+.nav_top li {
     display: inline-block;
 }
 
@@ -115,7 +115,7 @@ nav li {
     height: 800px;
 }
 
-.container_header {
+.container_big {
     max-width: 1400px;
     height: 100%;
     margin: 0 auto;
@@ -123,7 +123,7 @@ nav li {
     position: relative;
 }
 
-.container_header h1 {
+.container_big h1 {
     font-size: 74px;
     font-family: 'Open Sans', sans-serif;
     margin-top: 30px;
@@ -145,7 +145,7 @@ nav li {
     right: 0;
 }
 
-.container_header img {
+.container_big img {
     width: 100%;
 }
 
@@ -172,9 +172,11 @@ nav li {
 .marg_top {
     margin: 80px 0 40px 0;
 }
-  .radio-select {
-      margin-right: 10px;
-  }  
+
+.radio-select {
+    margin-right: 10px;
+}  
+
 .radio:before {
     content: "";
     display: inline-block;
@@ -332,7 +334,7 @@ nav li {
 }
 
 .user_banner p, figcaption {
-    margin-top: 60px;
+    margin-top: 40px;
 }
   
 .user_1 {
@@ -440,17 +442,48 @@ nav li {
 
 /* footer */
 
-/* .bg_footer {
-    height: 600px;
+#bg_footer {
+    height: 500px;
     background-color: black;
-    margin-top: 150px;
+    margin-top: 100px;
+}
+
+.cont_footer {
+    padding-top: 90px;
     width: 100%;
 }
 
-.bg_footer {
-    width: calc(100% / 5);
+.cont_footer nav {
+    width: calc((100% / 5) - 80px);
+    margin: 0 40px;
 }
 
-.col_footer {
-    margin-left: 30px;
-} */
+.cont_footer nav li {
+    margin: 10px 0;
+}
+
+.cont_footer nav li a {
+    text-decoration: none;
+    color: white;
+    font-style: initial;
+}
+
+.cont_footer h5 {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+footer hr {
+    border-color: grey;
+    width: 100px;
+    margin: 100px 0 40px 40px;
+}
+
+#langue {
+    font-size: 12px;
+    color: lightgray;
+    margin: 40px;
+}
+
+/* /footer */
