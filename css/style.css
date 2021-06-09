@@ -45,13 +45,19 @@ body {
 .margin_30 {
     margin: 30px 0;
 }
+
+.col_33 {
+    width: calc((100% / 3) - 20px) ;
+}
+
+.col_33:nth-child(2) {
+    margin: 0 30px;
+}
+
 /* /utils */
 
  /* nav top bar  */
 
-/* .logo {
-    width: 150px;
-} */
 
 .nav_top {
     height: 70px;
@@ -136,39 +142,38 @@ nav li {
 .col_invoice_bottom {
     padding: 10px 30px;
     height: 1000px;
+    border: 1px solid gray;
 }
 
-.col_center {
-    margin: 0 50px;
-}
-
-.subscriptions {
-    width: calc((100% / 3) - 40px) ;
-    border: 1px solid grey;
-}
 
 .top_col_invoice {
     height: 40px;
-    border-bottom: 1px solid grey;
+    border: 1px solid grey;
     text-align: center;
     padding-top: 7px;
+    border-bottom: none;
 }
 
 .marg_top {
     margin: 80px 0 40px 0;
 }
-    
-
-.invoice:before {
+  .radio-select {
+      margin-right: 10px;
+  }  
+.radio:before {
     content: "";
     display: inline-block;
-    height: 13px;
-    width: 13px;
+    height: 17px;
+    width: 17px;
     border-radius: 50%;
-    border: 4px solid #0061ff;
-    margin-right: 5px;
+    border: 2px solid lightgrey;
     vertical-align: middle;
-    }
+    margin-right: 5px;
+}
+
+.radio-select:before {
+    border: 5px solid #0061ff;
+}
 
 .invoice_year:before {
     margin-left: 10px;
@@ -224,7 +229,7 @@ nav li {
 .enterprise_contact {
     width: 100%;
     border: 1px solid grey;
-    margin: 30px 0 100px 0;
+    margin-bottom: 100px;
 }
 
 .col_enterprise_bottom {
@@ -258,16 +263,15 @@ nav li {
 
 .btt_partner {
     border: 1px solid black;
-    padding: 7px 15px;
+    padding: 7px 20px;
+    width: 170px;
 }
 /* /sezione partner */
 
 /* sezione operazioni */
 
 .col_operations > div {
-    width: calc(100% / 3);
-    height: 600px;
-    padding: 20px;
+    padding: 30px;
 }
 
 .col_operations img {
@@ -287,3 +291,76 @@ nav li {
 }
 
 /* /sezione utilizzatori */
+
+.cont_brand {
+    position: relative;
+    height: 500px;
+    width: 1500px;
+    margin: 50px 0 30px 0;
+    border: 2px solid red;
+} 
+
+.container_user {
+    
+}
+  
+.user_cube {
+    width: 250px;
+    height: 250px; 
+    position: absolute;
+}
+
+/* .user_1 {
+    background-color: #A2D39B;
+    top: 0;
+    left: 0;
+} 
+
+.user_2 {
+    background-color: #61082B;
+    top: 0;
+    left: 250px;
+} 
+
+.user_3 {
+    background-color: #0093CE;
+    bottom: 0;
+    left: 0;
+} 
+
+.user_4 {
+    background-color: #FF1C1C;
+    bottom: 0;
+    left: 250px;
+} 
+  
+.user_5 {
+    background-color: #A2D39B;
+    top: 0;
+    right: 250px;
+} 
+
+.user_6 {
+    background-color: #61082B;
+    top: 0;
+    right: 0;
+} 
+
+.user_7 {
+    background-color: #0093CE;
+    bottom: 0;
+    right: 250px;
+} 
+
+.user_8 {
+    background-color: #FF1C1C;
+    bottom: 0;
+    right: 0;
+} */
+
+.container_user .user_banner {
+    width: 500px;
+    height: 500px; 
+    position: absolute;
+    border: 2px solid blue;
+}
