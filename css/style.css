@@ -54,7 +54,7 @@ body {
     margin: 0 30px;
 }
 
-section hr {
+section .col hr {
     color: lightgrey;
     width: 50px;
     margin-bottom: 30px;
@@ -63,7 +63,7 @@ section hr {
 
 /* /utils */
 
- /* nav top bar  */
+ /* barra di navigazione  */
 
 
 .nav_top {
@@ -106,44 +106,52 @@ nav li {
     text-decoration: none;
 }
 
- /* /nav top bar  */
+ /* /barra di navigazione  */
 
  /* header jumbotron */
 
 .bg_header {
     background-color: rgb(180,208,231);
-    height: 80vh;
-}
-
-.container_header h1 {
-    font-size: 70px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.container_header p {
-    width: 400px;
-    margin: 40px 0;
+    height: 800px;
 }
 
 .container_header {
+    max-width: 1400px;
     height: 100%;
-    padding: 80px 150px 80px 120px;
+    margin: 0 auto;
+    padding-top: 90px;
     position: relative;
 }
 
-.container_header > div {
-    margin: 20px 0;
+.container_header h1 {
+    font-size: 74px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+}
+
+#text_header {
+    width: 400px;
+    margin-top: 80px;
+}
+
+#text_header p {
+    margin-bottom: 50px;
+}
+
+#img_header {
+    width: 800px;
+    position: absolute;
+    bottom: -50px;
+    right: 0;
 }
 
 .container_header img {
-    width: 900px;
-    position: absolute;
-    bottom: -50px;
-    right: 150px;
+    width: 100%;
 }
+
 /* /header jumbotron */
 
-/* dropbox invoice */
+/* piano di abbonamento */
 
 
 .col_invoice_bottom {
@@ -215,7 +223,7 @@ nav li {
     color: rgb(0,97,255);
 }
 
-/* /dropbox invoice */
+/* /piano di abbonamento */
 
 /* contatta ufficio */
 
@@ -293,7 +301,7 @@ nav li {
 
 /* /sezione utilizzatori */
 
-.cont_brand > .container_box {
+.container_box {
     width: calc(100% / 3);
     height: calc(80vw / 3);
     margin-top: 50px;
@@ -315,12 +323,16 @@ nav li {
 }
 
 .user_banner {
-    padding: 50px;
+    padding: 60px;
 }
 
 .user_banner > img {
     width: 30%;
     margin-bottom: 30px;
+}
+
+.user_banner p, figcaption {
+    margin-top: 60px;
 }
   
 .user_1 {
@@ -358,3 +370,58 @@ nav li {
 .user_banner {
     background-color: #F5F5F5;
 }
+
+/* sezione utilizzatori */
+
+/* sezione prova gratuita */
+
+.section_free_trial {
+    background-color: rgb(180,208,231);
+    height: 400px;
+}
+
+.free_trial {
+    padding: 150px 0;
+    position: relative;
+}
+
+#textfree_trial {
+    color: #61082B;
+    width: 50%;
+}
+
+.free_trial a  {
+    text-decoration: none;
+    color: black;
+    padding: 7px 40px;
+    background-color: white;
+    margin-left: 150px;
+    position: absolute;
+    top: 160px;
+    right: 0;
+}
+
+/* /sezione prova gratuita */
+/* sezione domande frequenti */
+
+.section_questions {
+    height: 800px;
+    padding: 200px 0;
+    position: relative;
+}
+
+.section_questions > h3 {
+    margin-bottom: 50px;
+}
+
+.section_questions h4 {
+    font-size: 18px;
+    margin: 40px 0;
+}
+
+.section_questions .fa-chevron-down {
+    text-align: right;
+}
+
+/* footer */
+
