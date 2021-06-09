@@ -273,7 +273,7 @@ nav li {
 .btt_partner {
     border: 1px solid black;
     padding: 7px 20px;
-    width: 170px;
+    display: inline-block;
 }
 /* /sezione partner */
 
@@ -423,5 +423,34 @@ nav li {
     text-align: right;
 }
 
+.text_faq {
+    border-top: 1px solid lightgrey;
+    position: relative;
+}
+
+.text_faq:last-child {
+    border-bottom: 1px solid lightgrey;
+}
+
+.text_faq .fas {
+    position: absolute;
+    right: 20px;
+    top: 65%;
+}
+
 /* footer */
 
+/* .bg_footer {
+    height: 600px;
+    background-color: black;
+    margin-top: 150px;
+    width: 100%;
+}
+
+.bg_footer {
+    width: calc(100% / 5);
+}
+
+.col_footer {
+    margin-left: 30px;
+} */
