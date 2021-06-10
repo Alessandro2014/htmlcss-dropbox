@@ -64,15 +64,21 @@ section .col hr {
 
  /* barra di navigazione  */
 
-header nav {
-    position: relative;
+ #logo {
+     width: 150px;
+ }
 
-}
+ #logo img {
+     width: 100%;
+    padding-top: 20px;
+ }
+
+header nav {
+    position: relative;}
 
 .nav_top {
-    height: 70px;
+    height: 80px;
     width: 100%;
-    padding: 20px;
     background-color: white;
     position: fixed;
     top: 0;
@@ -81,13 +87,13 @@ header nav {
     z-index: 1;
 }
 
-.menu_left {
+#menu_left {
     top: 20px;
-    left: 150px;
+    left: 200px;
     position: absolute;
 }
 
-.menu_right {
+#menu_right {
     text-align: right;
     top: 20px;
     right: 100px;
@@ -96,18 +102,22 @@ header nav {
 
 .nav_top li {
     display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+
 }
 
 .nav_top li a {
-    margin: 20px;
     text-decoration: none;
+    color: black;
 }
 
 .nav_top li a:hover {
     text-decoration: underline;
 }
 
-.button_starts {
+#bg_header .button_starts,
+#menu_right .button_starts {
     color: white;
     background-color: rgb(0,97,255);
     padding: 5px 15px;
@@ -118,14 +128,15 @@ header nav {
 
  /* header jumbotron */
 
-.bg_header {
+#bg_header {
     background-color: rgb(180,208,231);
     height: 800px;
-    margin-top: 80px;
+    margin: 80px
+    0;
 }
 
 .container_big {
-    max-width: 1400px;
+    max-width: 1500px;
     height: 100%;
     margin: 0 auto;
     padding-top: 90px;
@@ -148,7 +159,7 @@ header nav {
 }
 
 #img_header {
-    width: 800px;
+    width: 900px;
     position: absolute;
     bottom: -50px;
     right: 0;
@@ -162,15 +173,17 @@ header nav {
 
 /* piano di abbonamento */
 
+main section h2 {
+    margin: 150px 0 50px 0;
+}
 
-.col_invoice_bottom {
+.col_subscription article {
     padding: 10px 30px;
-    height: 1000px;
+    height: 900px;
     border: 1px solid gray;
 }
 
-
-.top_col_invoice {
+.top_col_subscription {
     height: 40px;
     border: 1px solid grey;
     text-align: center;
@@ -178,12 +191,9 @@ header nav {
     border-bottom: none;
 }
 
-.marg_top {
-    margin: 80px 0 40px 0;
-}
 
 .radio-select {
-    margin-right: 10px;
+    margin-right: 20px;
 }  
 
 .radio:before {
@@ -215,22 +225,18 @@ header nav {
     margin-bottom: 40px;
 }
 
-.col_invoice_bottom li {
+.col_subscription article li {
     display: block;
     margin: 30px 0;
 
 }
 
-.col_invoice_bottom ul {
-    margin: 40px 0;
-}
 
-
-.col_invoice_bottom .fa-check {
+.col_subscription article .fa-check {
     color: rgb(0,97,255);
 }
 
-.col_invoice_bottom div > a {
+.col_subscription article div > a {
     color: rgb(0,97,255);
 }
 
