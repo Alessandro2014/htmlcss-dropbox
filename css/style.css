@@ -65,16 +65,17 @@ section .col hr {
  /* barra di navigazione  */
 
  #logo {
-     width: 150px;
+     width: 200px;
  }
 
  #logo img {
-     width: 100%;
-    padding-top: 20px;
+    width: 90%;
+    padding: 20px 0 0 30px;
  }
 
 header nav {
-    position: relative;}
+    position: relative;
+}
 
 .nav_top {
     height: 80px;
@@ -88,14 +89,14 @@ header nav {
 }
 
 #menu_left {
-    top: 20px;
-    left: 200px;
+    top: 25px;
+    left: 230px;
     position: absolute;
 }
 
 #menu_right {
     text-align: right;
-    top: 20px;
+    top: 25px;
     right: 100px;
     position: absolute;
 }
@@ -181,6 +182,7 @@ main section h2 {
     padding: 10px 30px;
     height: 900px;
     border: 1px solid gray;
+    margin-bottom: 50px;
 }
 
 .top_col_subscription {
@@ -354,6 +356,7 @@ main section h2 {
   
 .user_1 {
     background-color: #A2D39B;
+    border: 10px solid #A2D39B;
 } 
 
 .user_2 {
@@ -392,6 +395,7 @@ main section h2 {
 
 /* sezione prova gratuita */
 
+
 .section_free_trial {
     background-color: rgb(180,208,231);
     height: 400px;
@@ -405,6 +409,9 @@ main section h2 {
 #textfree_trial {
     color: #61082B;
     width: 50%;
+    position: absolute;
+    top: 0px;
+    left: 0;
 }
 
 .free_trial a  {
