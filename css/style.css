@@ -60,17 +60,25 @@ section .col hr {
     margin-bottom: 30px;
 }
 
-
 /* /utils */
 
  /* barra di navigazione  */
 
+header nav {
+    position: relative;
+
+}
 
 .nav_top {
     height: 70px;
     width: 100%;
     padding: 20px;
-    position: relative;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
 }
 
 .menu_left {
@@ -113,6 +121,7 @@ section .col hr {
 .bg_header {
     background-color: rgb(180,208,231);
     height: 800px;
+    margin-top: 80px;
 }
 
 .container_big {
